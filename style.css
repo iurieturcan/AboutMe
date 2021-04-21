@@ -1,0 +1,95 @@
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1; 
+  padding: 0;
+  margin: 0;
+  background-color: rgba(83, 216, 194, 0.719);
+  
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background-color: rgba(204, 176, 19, 0.747);
+  color:rgba(10, 91, 214, 0.863);
+  padding-top: 20px;
+  min-height: 80px;
+  border-bottom: 5px;
+}
+
+header a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+header a:hover{
+  color:seagreen;
+  font-weight: bold;
+  
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+header li{
+  float: right;
+  display: inline;
+  padding: 15px 15px 15px 15px;
+}
+
+header #name h1{
+  margin: 0;
+  font-size: 100px;
+  text-align: center;
+  
+}
+#about {
+  min-height: 800px;
+  background: url(./pic/Iuriephoto.jpg) no-repeat 0 -150px;
+  background-color: white;
+}
+#about h3{
+  margin-top: 100px;
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-align: right;
+}
+#about p{
+  margin-top: 10px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-align: right;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.quotes{
+  margin-top: 400px;
+  margin-right: 15px;
+  text-align: right;
+  margin-bottom: 10px;
+}
+#boxes img{
+  width: 50px;
+  margin-top: 10px ;  
+  
+}
+
+#boxes .box{
+  float: right;
+    width: 5%;
+  padding: 10px;
+}
+
+
+
+
+
